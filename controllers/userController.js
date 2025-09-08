@@ -2,7 +2,7 @@
 // route POST /api/users/register
 // @access public
 const registerUser = asyncHandler(async (req,res) => {
-    res.json({message: "Register the user"});
+    res.json({message: "Register the User"});
 });
 
 module.exports = { registerUser };
