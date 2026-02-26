@@ -3,7 +3,7 @@ const connectDB = require("./config/dbConnection");
 const errorHandler = require("./middleware/errorHandler");
 const dotenv = require("dotenv").config();
 
-connectDB();
+
 const app = express();
 
 const port = process.env.PORT || 5000;
@@ -18,3 +18,4 @@ app.listen(port,() => {
     console.log(`server is running on port ${port}`);
 });
 
+connectDB();

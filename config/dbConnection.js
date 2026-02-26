@@ -14,3 +14,5 @@ const connectDb = async () => {
 }
 
 module.exports = connectDb;
+
+// mongodb+srv://GauravCluster:1234567890@gauravcluster.pdtchzh.mongodb.net/mycontact-backend
